@@ -1,3 +1,5 @@
-<h1>All Studios<h1>
+<h1>All Studios</h1>
 
-  
+<% @studios.each do |studio| %>
+<p><%= studio.name %> - <%= studio.location %></p>
+<% end %>
